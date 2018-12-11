@@ -1,0 +1,42 @@
+
+#slidepanel { 
+	background: #333;
+	width: 100%;
+	height: auto;
+	display: none;
+	margin: 0 auto;
+}
+
+.slide {
+	margin:0;
+	padding:0;
+	width: 100%;
+	border-top: solid 1px #333;
+}
+
+.slide_btn {
+	background: #795548;
+	margin: 0 auto;
+	display: block;
+	width: 80px;
+	height: 30px;
+	border-radius: 0 0 10px 10px;
+	/*text-decoration:none;*/
+	/*text-indent:-9999px;*/
+	/*overflow:hidden;*/
+}
+
+.active {
+	/*margin: auto 3em auto 3em;   slide button position after click */
+	background-position:0 -20px; /*-20px;*/
+}
+
+.slide #arrow{
+	max-width: 40px;
+	height: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 50%; /*  fall back  */
+	margin-left: -webkit-calc(50% - 20px);
+	margin-left: calc(50% - 20px);
+}
